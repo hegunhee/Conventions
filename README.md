@@ -1,26 +1,11 @@
-# CommitRules
-개인적인 커밋 룰 입니다.  
-## 커밋 헤더
-- feat : 새로운 기능 추가
-- fix : 버그 수정
-- docs : 문서 관련
-- style : 스타일 변경 (포매팅 수정, 들여쓰기 추가, …)
-- refactor : 코드 리팩토링
-- test : 테스트 관련 코드
-- build : 빌드 관련 파일 수정
-- ci : CI 설정 파일 수정
-- perf : 성능 개선
-- chore : 그 외 자잘한 수정
+# Conventions
+- 제가 사용하는 컨벤션을 작성해놨습니다.  
+- 컨벤션은 팀마다 사람마다 다르지만 그때그때 타협을 통해 결정합니다.  
+- 컨벤션을 통해 보다 빠르게 의미파악을 하고 업무에 집중할 수 있도록 합니다.  
+## 커밋 컨벤션  
+- 커밋 컨벤션을 통해서 현재 상황과 과거 히스토리를 빠르게 파악할 수 있습니다.  
+  - [커밋 컨벤션](https://github.com/hegunhee/Conventions/blob/main/CommitConventions.md)
 
-커밋 메시지 룰  
-- 제목과 본문을 빈 행으로 구분
-- 제목은 영문 기준 50글자 이하
-- 첫 글자는 대문자로 작성
-- 제목 끝에 마침표X
-- 제목은 명령문으로 사용, 과거형X
-- 본문의 각 행은 영문 기준 72글자 이하
-- 어떻게 보다는 무엇과 왜  
-
-기본적인 틀
-
-지라 티켓이름 or #이슈번호 - header : message  
+## 테스트 코드 컨벤션  
+- 테스트 코드 컨벤션을 통해 비즈니스 로직을 빠르게 파악합니다.
+  - [테스트 코드 컨벤션](https://github.com/hegunhee/Conventions/blob/main/TestCodeConventions.md)  
